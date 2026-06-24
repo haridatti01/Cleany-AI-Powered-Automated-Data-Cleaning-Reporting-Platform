@@ -1,0 +1,72 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ========================
+# Virtual Environment
+# ========================
+.venv/
+venv/
+ENV/
+env/
+
+# ========================
+# Environment Variables
+# ========================
+.env
+
+# ========================
+# IDE / Editors
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ========================
+# Logs
+# ========================
+*.log
+install_log.txt
+
+# ========================
+# Database (SQLite)
+# ========================
+*.db
+*.sqlite
+*.sqlite3
+
+# ========================
+# Uploads (user data)
+# ========================
+uploads/*
+!uploads/.gitkeep
+
+# ========================
+# Reports (generated)
+# ========================
+reports/*
+!reports/.gitkeep
+
+# ========================
+# Distribution / Build
+# ========================
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ========================
+# Byte-compiled / Misc
+# ========================
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
